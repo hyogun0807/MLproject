@@ -1,0 +1,14 @@
+미리 12000번 훈련시킨 결과 값입니다.
+
+테스트 셋과 훈련 셋은 처음 3 대 7 비율로 나눈 데이터 셋입니다.
+
+Json Data
+{ // 모든 타입 List
+    'weight':   가중치
+    'accuracy': train 정확도           
+    'mse':       train mse             
+    'test_acc':  test 정확도,
+    'test_mse': test mse
+    'train_set': 사용한 훈련 데이터
+    'test_set':  사용한 테스트 데이터
+}
